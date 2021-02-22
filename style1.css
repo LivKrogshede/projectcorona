@@ -1,0 +1,148 @@
+* {
+    margin:0; 
+    padding: 0; 
+    line-height: 1.5em; 
+    scroll-behavior: smooth; 
+    font-family: sans-serif;
+    }
+h2 {
+    text-align: center;
+    } 
+.title{
+    color: black;
+    letter-spacing: 3px;
+    }
+h3 {
+    border-bottom: 1px solid black; 
+    margin: 40px 0 0 0;
+    }
+.hex {
+    color: black;
+    }  
+.logo {
+    width: 100%;
+    height:100vh;
+    display: flex;
+    background: white;
+    }
+.menu {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: grid;
+    width: 100%;
+    height: 60px;
+    background: #6495ED;
+    letter-spacing: 1px;
+    }
+.menu ul {
+	display: flex;
+	list-style:none;
+	width: 100%;
+	justify-content: center;
+    }
+.menu ul li {
+	margin: 0 1rem;
+	padding: 1rem;
+    }
+.menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+    }
+.menu ul li a:hover {
+	color: black;
+    }
+.logo {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 2px;
+    }
+.color {
+	background:white;
+	text-align: center;
+	padding: 130px;
+}
+.cWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    justify-items: center;
+    }
+.color1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    }
+.color2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    }
+.color3 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    }
+.color4 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    }
+.typoHeadline {
+    background:white;
+    color: black
+    }
+.typoGrid {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: white;
+    padding: 200px;
+    color: black;
+    }
+.typografi {
+    border-bottom: 1px solid white;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    }
+.typografi2 {
+    border-bottom: 1px solid white;
+    padding: 20px;
+    font-size: 23px;
+    font-weight:bold;
+    text-align: center;
+    }
+.typografi3 {
+    border-bottom: 1px solid white
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    }
+.baseHeadline {
+    background:white;
+    color: black
+    }
+.contactGrid {
+    display: grid;
+    background-color: white;
+    padding: 200px;
+    color: black;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+.p {
+    border-bottom: 1px solid white;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    font-family: sans-serif,arial;
+    }
+.list, ul, li {
+    border-bottom: 1px solid white;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    font-family: sans-serif,arial;
+    }
