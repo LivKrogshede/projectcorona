@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="chat.css">
+<html lang="da" dir="ltr">
+    <head>
+    <title>Universal Robots Prototype</title>
+<link rel="stylesheet" href="chat.css">
 <script src="chat.js" defer></script>
-<title>chat function</title>
-</head>
-<body>
-<h2>Popup Chat Window</h2>
-<p>Click on the button at the bottom of this page to open the chat form.</p>
-<p>Note that the button and the form is fixed - they will always be positioned to the bottom of the browser window.</p>
-
+    </head>
+    <body>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Produkter</a></li>
+                <li><a href="#">Indblik</a></li>
+                <li><a href="#">Brancher</a></li>
+                <li><a href="#">Service og support</a></li>
+                <li><a href="#">Kontakt os</a></li>
+                </ul>
+        </nav>
+<input type="text" id="search" name="searchbar" placeholder="Søg efter Robotter">
+<section>
+    <h1>KOLLABORATIVE ROBOTTER FRA UNIVERSAL ROBOTS</h1>
+    <img src="images/ur3e.png" alt="robot" class="center">
+</section>
 <button class="open-button" onclick="openForm()">Chat</button>
 
 <div class="chat-popup" id="myForm">
@@ -24,5 +33,5 @@
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
-</body>
+    </body>
 </html>
