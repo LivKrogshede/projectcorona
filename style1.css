@@ -121,7 +121,7 @@
     font-size: 15px;
     text-align: center;
     }
-.baceHeadline {
+.patternsHeadline {
     background:#ffffff;
     color: #000000;
     text-align: center;
@@ -130,7 +130,7 @@
 .list, ul, li {
     padding: 10px;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 13px;
     text-align: left;
     font-family: sans-serif,arial;
     }
@@ -160,6 +160,14 @@
     outline: 0;
     transition: padding .2s;
     }
+code {
+    background-color: #56a0d3;
+    border: 1px solid #000000;
+    display: block;
+    padding: 10px;
+    color: white;
+    width: 50%;
+      }
 .mainlink {
     position: relative;
     display: inline-block;
@@ -178,24 +186,21 @@
     font-size: 12px;
     font-family: sans-serif,arial;
     }
-.formitem {
-    margin-bottom: 20px;
-    position: relative;
-    text-align: left;
-    cursor: default;
-    line-height: 1.5;
-    box-sizing: inherit;
+input {
+    margin-left: 10px;
+      }
+textarea {
+    text-align: left!important;
+    min-width: 30%;
+    border-radius: 7px;
+    height: 50px;
+    margin-bottom: 0;
+    }
+.iconGrid {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: #ffffff;
+    padding: 30px;
+    color: #000000;
     }
 
-code {
-  background-color: #56a0d3;
-  border: 1px solid #999;
-  display: block;
-  padding: 10px;
-  color: white;
-  width: 80%;
-}
-
-input {
-  margin-left: 10px;
-}
