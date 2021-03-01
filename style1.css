@@ -127,19 +127,16 @@
     text-align: center;
     padding: 30px;
     }
-.list ul li {
-    border-bottom: 1px solid white;
+.list, ul, li {
     padding: 10px;
     font-weight: 100;
     font-size: 16px;
     text-align: left;
     font-family: sans-serif,arial;
     }
-
 .list ul {
   margin-left: 20px;
 }
-
 .button--large {
     padding: 8px 42px 7px 42px;
     }
