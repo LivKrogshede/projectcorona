@@ -186,9 +186,6 @@ code {
     font-size: 12px;
     font-family: sans-serif,arial;
     }
-input {
-    margin-left: 10px;
-      }
 textarea {
     text-align: left!important;
     min-width: 30%;
@@ -196,11 +193,6 @@ textarea {
     height: 50px;
     margin-bottom: 0;
     }
-.iconGrid {
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    background-color: #ffffff;
-    padding: 30px;
-    color: #000000;
-    }
-
+input {
+        margin-left: 10px;
+          }
