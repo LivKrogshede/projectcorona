@@ -127,7 +127,7 @@
     text-align: center;
     padding: 30px;
     }
-.list, ul, li {
+.list ul li {
     border-bottom: 1px solid white;
     padding: 10px;
     font-weight: 100;
