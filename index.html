@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="da" dir="ltr">
     <head>
-    <title>Universal Robots Prototype</title>
-<link rel="stylesheet" href="core.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Universal Robots Prototype</title>
+        <link rel="stylesheet" href="core.css">
+        <script src="../filter.js"></script>
     </head>
     <body>
         <nav class="menu">
@@ -15,9 +18,43 @@
                 </ul>
         </nav>
 <input type="text" id="search" name="searchbar" placeholder="Søg efter Robotter">
-<section>
+<main>
     <h1>KOLLABORATIVE ROBOTTER FRA UNIVERSAL ROBOTS</h1>
     <img src="images/ur3e.png" alt="robot" class="center">
-</section>
+    <p class="center">Den fleksible, lette kollaborative UR3e cobot vejer kun 11 kg, men kan løfte 3 kg, og har 360-graders rotation i alle håndled samt ubegrænset rotation i alle endeled. UR3-robotten kan bruges til mange formål i fremstillingssektorerne, fra medicinsk udstyr over printplader til elektroniske komponenter.</p>
+    <div class="buttons">
+        <button class="btn" onclick="filterObjects('all')">Vis alle</button>
+        <button class="btn" onclick="filterObjects('specifikationer')">Specifikationer</button>
+        <button class="btn" onclick="filterObjects('brancher')">Brancher</button>
+        <button class="btn" onclick="filterObjects('anvendelse')">Anvendelse</button>
+    </div>
+    <div class="objects">
+        <div class="box specifikationer">Løfteevne: 3 kg</div>
+        <div class="box specifikationer">Radius: 500 mm</div>
+        <div class="box specifikationer">Footprint: 128 mm</div>
+        <div class="box specifikationer">Vægt: 11.2 kg</div>
+        <div class="box specifikationer">360 graders rotering</div>
+        <div class="box brancher">Medicin og kosmetik</div>
+        <div class="box brancher">Plast og Polymerer</div>
+        <div class="box brancher">Automobil industri</div>
+        <div class="box brancher">Metal og maskinbearbejdning</div>
+        <div class="box brancher">Fødevareproduktion</div>
+        <div class="box brancher">Møbler og udstyr</div>
+        <div class="box brancher">Elektronik og teknologi</div>
+        <div class="box anvendelse">Maskinpasning</div>
+        <div class="box anvendelse">Materialehåndtering</div>
+        <div class="box anvendelse">Fjernelse af materiale</div>
+        <div class="box anvendelse" onclick="filterObjects('montering')">Montering</div>
+        <div class="box anvendelse">Efterbehandling</div>
+        <div class="box anvendelse">Kvalitetskontrol</div>
+        <div class="box anvendelse">Løfteevne</div>
+        <div class="box anvendelse">Dosering</div>
+        <div class="box anvendelse">Skruning</div>
+        <div class="box montering">Møtrikstramning</div>
+        <div class="box montering">Delmontering</div>
+        <div class="box montering">Indsætning</div>
+    </div>
+   
+</main>
     </body>
 </html>
