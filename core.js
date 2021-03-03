@@ -1,9 +1,9 @@
-var list = document.getElementById("myUL");
 function myFunction() {
-   txtValue;
-   var input = document.getElementById('search');
-   var filter = input.value.toUpperCase();
-   var li = ul.getElementsByTagName('li');
+   var input, filter, ul, li, a, i, txtValue;
+   input = document.getElementById('search');
+   filter = input.value.toUpperCase();
+   ul = document.getElementById("myUL");
+   li = ul.getElementsByTagName('li');
 
    for (i = 0; i < li.length; i++) {
      a = li[i].getElementsByTagName('a')[0];
@@ -14,12 +14,4 @@ function myFunction() {
        li[i].style.display = "none";
      }
    }
-}
-
-function menuHidden() {
-  if (list.style.display == "block") {
-    list.style.display = "none";
-  } else {
-    list.style.display = "block";
-  }
 }
