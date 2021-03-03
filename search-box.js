@@ -3,6 +3,7 @@ function myFunction() {
    input = document.getElementById('searchBox');
    filter = input.value.toUpperCase();
    ul = document.getElementById("myUL");
+   ul.style.display = "block";
    li = ul.getElementsByTagName('li');
 
    for (i = 0; i < li.length; i++) {
