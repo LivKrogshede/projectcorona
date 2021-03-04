@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="core.css">
         <script src="filter.js"></script>
         <script src="core.js"></script>
+        <script src="chat.js" defer></script>
     </head>
     <body>
         <nav class="menu">
@@ -57,7 +58,20 @@
                 <div class="box montering">Møtrikstramning</div>
                 <div class="box montering">Delmontering</div>
                 <div class="box montering">Indsætning</div>
+
+                <button class="open-button" onclick="openForm()">Chat</button>
+
+                <div class="chat-popup" id="myForm">
+                  <form action="/action_page.php" class="form-container">
+                    <h1>Chat</h1>
+                
+                    <label for="msg"><b>Message</b></label>
+                    <textarea placeholder="How can we help you?" name="msg" required></textarea>
+                
+                    <button type="submit" class="btn">Send</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
             </div>
+            
            
         </main>
             </body>
