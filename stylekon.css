@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+input,
+textarea {
+  font-family: sans-serif;
+}
+.menu {
+  top: 0;
+  z-index: 1;
+  display: grid;
+  width: 100%;
+  height: 60px;
+  background: #6495ED;
+  letter-spacing: 1px;
+  }
+.menu ul {
+  display: flex;
+  list-style:none;
+  width: 100%;
+  justify-content: center;
+  }
+.menu ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+  }
+.menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  }
+.menu ul li a:hover {
+  color: black;
+  }
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+.form {
+  width: 100%;
+  max-width: 620px;
+  background-color: #6495ED;
+  border-radius: 10px;
+  z-index: 1000;
+  display: grid;
+  }
+.contact-form {
+  position: relative;
+  }
+.form {
+  padding: 2.3rem 2.2rem;
+  z-index: 10;
+  position: relative;
+  }
+.title {
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.7rem;
+  }
+.input-container {
+  position: relative;
+  margin: 1rem 0;
+  }
+.input {
+  width: 100%;
+  border: 2px solid #000000;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color: #000000;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  }
+.textarea.input {
+  padding: 0.8rem 1.2rem;
+  min-height: 150px;
+  border-radius: 22px;
+  }
+.input-container label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  padding: 0 0.4rem;
+  color: #000000;
+  font-size: 0.9rem;
+  font-weight: 400;
+  z-index: 1000;
+  }
+.btn {
+  padding: 0.6rem 1.3rem;
+  background-color: #000000;
+  border: 2px solid #000000;
+  font-size: 0.95rem;
+  color: #ffffff;
+  line-height: 1;
+  border-radius: 25px;
+  margin: 0;
+  }
+.input-container.focus label {
+  top: 0;
+  transform: translateY(-50%);
+  left: 25px;
+  font-size: 0.8rem;
+  }
+.contact-info {
+  padding: 2.3rem 2.2rem;
+  position: relative;
+  }  
+.contact-info .title {
+  color: #ffffff;
+  }
+.text {
+  color: #000000;
+  margin: 1.5rem 0 2rem 0;
+  }
+.information {
+  display: flex;
+  color: #000000;
+  margin: 0.7rem 0;
+  align-items: center;
+  font-size: 0.95rem;
+  }
+  
+
+@media (max-width: 480px) {
+.container {
+  padding: 1.5rem;
+  }
+.contact-info:before {
+  display: none;
+  }
+.form,
+.contact-info {
+  padding: 1.7rem 1.6rem;
+  }
+.text,
+.information {
+  font-size: 0.8rem;
+  }
+.title {
+  font-size: 1.15rem;
+  }
+.input {
+  padding: 0.45rem 1.2rem;
+  }
+.btn {
+  padding: 0.45rem 1.2rem;
+  }
+}
