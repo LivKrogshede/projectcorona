@@ -50,6 +50,30 @@
         box-sizing: border-box;
     }
 
+    #myUL {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 10.5%;
+        display: none;
+        position: fixed;
+      }
+     
+      #myUL li a {
+        border: 1px solid #ddd;
+        margin-top: -1px; /*Undgå dobbelt borders*/
+        background-color: #f6f6f6;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        display: block;
+      }
+     
+      #myUL li a:hover {
+        background-color: #eee;
+      }
+
 .center {
     display: block;
     max-width: 20%;
