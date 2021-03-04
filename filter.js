@@ -11,7 +11,6 @@ function filterObjects(category){
         allBoxes.forEach(function(el){
             el.style.display = 'none';
         });
-
         let categoryBoxes = document.querySelectorAll('.objects .' + category);
         categoryBoxes.forEach(function(el){
             el.style.display = 'block'; 
@@ -19,11 +18,3 @@ function filterObjects(category){
     }
 }
 
-function myFunction() {
-    var x = document.getElementByClass("");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
