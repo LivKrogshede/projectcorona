@@ -4,10 +4,10 @@ var billeder = []; // billede-array
 var time = 1000; //antal millisekunder før næste billede/slide. 1000 millisekunder = 1 sekund.
 
 // billeder og hvilket nr de er tildelt og hvor deres lokation er.
-billeder[0] = 'https://picsum.photos/id/1003/1181/1772';
-billeder[1] = 'https://picsum.photos/id/1004/1181/1772';
-billeder[2] = 'https://picsum.photos/id/1005/1181/1772';
-billeder[3] = 'https://picsum.photos/id/1006/1181/1772';
+billeder[0] = 'Images/ur4.jpg';
+billeder[1] = 'Images/ur2.jpg';
+billeder[2] = 'Images/ur3.jpg';
+billeder[3] = 'Images/ur1.jpg';
 
 function skiftBillede(){    //funktionen der får billedet til at skifte
   document.getElementById('nytbillede').src = billeder[i]; //finder det nye billede vha id'et kaldt 'nytbilledet' i HTML'en
