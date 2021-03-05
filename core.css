@@ -84,8 +84,12 @@
 }
 
 #nytbillede {
-width: 20%;
-
+width: 700px;
+height: 350px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
 }
 
 

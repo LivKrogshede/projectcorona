@@ -1,7 +1,7 @@
 
 var i = 0; // i er sat til = 0, da den skal starte på første billede
 var billeder = []; // billede-array
-var time = 1000; //antal millisekunder før næste billede/slide. 1000 millisekunder = 1 sekund.
+var time = 5000; //antal millisekunder før næste billede/slide. 1000 millisekunder = 1 sekund.
 
 // billeder og hvilket nr de er tildelt og hvor deres lokation er.
 billeder[0] = 'Images/ur4.jpg';
