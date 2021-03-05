@@ -83,13 +83,13 @@
     width: 50%;
 }
 
-#nytbillede {
-width: 700px;
-height: 350px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 30px;
+    #nytbillede {
+     width: 700px;
+     height: 350px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 30px;
 }
 
 
